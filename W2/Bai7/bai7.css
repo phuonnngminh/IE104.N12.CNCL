@@ -1,0 +1,101 @@
+html,body
+{
+    
+    background-color: #9a0000;
+    background-image: url(rose.png) , url(kim-tea-hee.png) , url(nen-hoa-hong.png) ;
+    background-repeat: no-repeat, no-repeat , no-repeat;
+    background-attachment: fixed, fixed , fixed;
+    background-position: left bottom, left bottom, right bottom ;
+    background-position-x: 170px, 40px, right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box
+{
+    
+    margin: auto;
+    margin-top: 1.3cm;
+    width: 20.5cm;
+    height: 14.5cm;
+    border: 0.01cm groove white;
+    
+}
+
+#box-1
+{
+    background-color: #feccff;
+    height: 4.6cm;
+    color: #fe0417;
+    
+}
+
+#s1
+{
+   margin: 0px;
+   padding-top: 0.5cm ;
+   padding-right: 0.1cm;
+   text-align: right;
+   font-size: 0.7cm;
+}
+
+#s2
+{
+    padding-top: 0.01cm;
+    margin-left: 1cm;
+    font-size: 0.9cm;
+}
+
+#box-2
+{
+    background-color: #fe0000;
+    height: 2cm ;
+    width: 15cm;
+    color: white;
+    
+
+}
+
+#gift
+{
+    width: 5cm;
+    padding-top:0.4cm;
+}
+
+.column
+{
+    width: 10cm;
+    font-size: 17px;
+    float: left;
+}
+
+
+.c1
+{
+    color: #f90000;
+    list-style-type: "\2610";
+    padding-bottom: 0.5cm;
+    padding-top: 0.2cm;
+
+}
+
+.c2
+{
+    color: #f1c1ec;
+    list-style-type: disc;
+    margin-left: 0.8cm;
+    
+    
+}
+
+.c3
+{
+    color: #f1c1ec;
+    
+}
+
+li span 
+{
+    position: relative;
+    left: 10px;
+}

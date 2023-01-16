@@ -1,0 +1,38 @@
+body
+{
+    background-attachment: fixed;
+    background-size:contain;
+}
+
+#noidung
+{
+    background-color: black;
+    margin-left: 9cm;
+    margin-right: 9cm;
+    margin-top: 1cm;
+    height: 17cm;
+    width: 21.77cm;
+    color: rgb(211, 202, 202);
+}
+
+#banner
+{
+    width: 21.77cm;
+    
+}
+
+#underline
+{
+    color: red;
+}
+
+footer
+{
+    font-size: 11px;
+    padding-top: 3cm;
+}
+
+#noidungchinh
+{
+    margin-right: 8.5cm;
+}

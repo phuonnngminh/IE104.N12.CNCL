@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e10c7bb9e.js" crossorigin="anonymous"></script>
+    <script src="bai2.js" ></script>
+</head>
+<body>
+    <div id="top">
+        <h1 id="title">
+            ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM
+        </h1>
+        <p id="description">
+            Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu <br>
+            Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i>(nếu có)</i>
+        </p>
+        <br>
+    </div>
+    <div align="center">
+        <table>
+            <tr>
+                <td>
+                    <input id="name" class="input" type="text" placeholder="Họ và tên">
+                </td>
+                <td>
+                    <input id="card" class="input" type="text" placeholder="Mã thẻ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="phone" class="input" type="text" placeholder="Số điện thoại">
+                </td>
+                <td>
+                    <input id="mail" class="input" type="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select required id="type" class="input select" >
+                        <option selected disabled hidden>Chọn loại khách hàng</option>
+                        <option value="Vip">Vip</option>
+                        <option value="Thường">Thường</option>
+                    </select>
+                </td>
+                <td>
+                    <input id="code" class="input" type="text" placeholder="Mã hóa đơn">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea  id="detail" class="input textarea" name="" id="" cols="30" rows="10" placeholder="Nhập chi tiết mô tả"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" onclick="form()">
+                    <button class="button" >GỬI GÓP Ý <i class="fa-brands fa-facebook-messenger"></i></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

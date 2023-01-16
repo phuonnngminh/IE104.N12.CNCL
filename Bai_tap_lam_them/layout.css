@@ -1,0 +1,228 @@
+body
+{
+    width: 100%;
+    margin: 0;   
+    font-family: 'Roboto', sans-serif;
+}
+
+.info
+{
+    background-color: #002147;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+}
+.fa 
+{
+    font-size:24px;
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+
+.info a
+{
+    color: #E6E6E6;
+}
+
+.info--link a
+{
+    margin-right : 10px; ;
+}
+
+.info img
+{
+    margin-left: 5px;
+}
+
+.fa-envelope
+{
+    margin-left: 40px;
+}
+
+.email
+{
+    margin-right: 100px;
+}
+
+.banner
+{
+    display: flex;
+}
+
+#search
+{
+    width: 180px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 50px;
+    padding: 5px;
+    height: 20px;
+    position: absolute;
+    font-size: 16px;
+   
+}
+
+#search_btn
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+#hcld
+{
+    width: 68px;
+    height:100px;
+    margin-top: 10px;
+
+}
+
+#banner
+{
+    margin-left: 200px;
+}
+
+.fa-home
+{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.flex-container1
+{
+    background-color: #009ed8;
+    height: 1.5cm;
+    display: flex;
+}
+
+.flex-container1 select
+{
+    background-color: #009ed8;
+    font-size: 13px;
+    padding: 0.5cm;
+    color: white;
+    font-weight: bold;
+}
+
+.flex-container1 a
+{
+    background-color: #009ed8;
+    font-size: 13px;
+    padding: 0.5cm;
+    color: white;
+    font-weight: bold;
+}
+
+#home
+{
+    margin-left: 200px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.footer
+{
+    width: 36cm;
+    height: 1cm;
+    background-color: white;
+    display:flow-root;
+    margin-left: 1.8cm;
+    margin-top: 1350px;
+    padding-top: 0.3cm;
+    text-align: center;
+}
+
+.news
+{
+    display: flex;
+    margin-left: 250px;
+}
+
+.news h1
+{
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+}
+
+.news div
+{
+    margin-right: 20px;
+}
+
+.news img
+{
+    width: 330px;
+}
+
+.tinnoibat
+{
+    width: 330px;
+}
+.tinnoibat a
+{
+    font-weight: normal;
+    text-transform: none;
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    text-align: justify;
+}
+
+.tinnoibat li
+{
+    list-style: none outside none;
+    float: left;
+    overflow: hidden;
+}
+
+.tinnoibat img
+{
+    width: 30px;
+}
+
+.tinnoibat span
+{
+    color: #666;
+    font-size: 12px;
+}

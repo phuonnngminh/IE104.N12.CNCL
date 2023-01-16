@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        <h1>ĐĂNG KÝ DU LỊCH</h1>
+        <table>
+            <tr>
+                <th class="table_left">
+                    Họ tên
+                </th>
+                <th class="table_left">
+                    <input type="text" style="width: 7cm">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left">
+                    Địa chỉ
+                </th>
+                <th class="table_left">
+                    <input type="text" style="width: 10cm; height: 4cm;" >
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left" >
+                    Điện thoại
+                </th>
+                <th class="table_left">
+                    <input type="tel">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left">
+                    Khách Việt Nam
+                </th>
+                <th class="table_left">
+                    <input type="checkbox">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left">
+                    Chọn tour
+                </th>
+                <th class="table_left">
+                    <select name="tour" id="tour">
+                        <option>Phú Quốc - Côn Đảo</option>
+                        <option>Đà Lạt - Sài Gòn</option>
+                        <option>Khác</option>
+                    </select>
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left">
+                    Phương tiện
+                </th>
+                <th class="table_left">
+                    <input type="radio">
+                    <label for="plane">Máy bay</label>
+                    <input type="radio">
+                    <label for="car">Xe du lịch</label>
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_center" colspan="2">
+                    <fieldset>
+                        <legend>Số lượng đoàn khách</legend>
+                        <label for="old">Người lớn</label>
+                        <input type="number">
+                        <label for="child">Trẻ em</label>
+                        <input type="number">
+                    </fieldset>
+                    
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_left">
+                   Ghi chú thêm
+                </th>
+                <th class="table_left">
+                    <input type="text" style="width: 10cm; height: 4cm;" >
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_center" colspan="2"><button ><b>Đồng ý</b></button></th>
+            </tr>
+
+            <tr>
+                <th class="table_center" id="sucessfull" colspan="2"><b>Bạn đã đăng ký thành công!!!</b></th>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <link href="layout.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <header>
+        <div class="info">
+            <i class="fa">&#xf095;</i>
+            <a href="#">(028) 372 52002</a>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a class="email" href="#"> info@uit.edu.vn</a>
+            <div class="info--link">
+                <a href="https://tuyensinh.uit.edu.vn/">Tuyển sinh</a>
+                <a href="https://www.uit.edu.vn/bang-vang-sinh-vien">Bảng vàng thành tích</a>
+                <a href="http://thuvien.uit.edu.vn/">Thư viện</a>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-334778267%3A1669792062130290&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hd=uit.edu.vn&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession">Webmail CB</a>
+                <a href="https://mail.google.com/mail/u/1/#inbox">Webmail SV</a>
+                <a href="https://vnuhcm.edu.vn/">Website ĐHQG</a>
+            </div>
+            <img src="vi.png">
+            <img src="en.png">
+
+        </div>
+        <div class="banner">
+            <img src="banner_uit.png" id="banner">
+            <img src="hcld.png" id="hcld">
+            <div>
+                <input id="search" type="text" placeholder="Search this site...">
+                <input id="search_btn" type="image" src="searchbutton.png">
+            </div>
+        </div>
+    </header>
+    <body>
+        <div>
+            <div class="flex-container1">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <select name="home" id="home">   
+                    <option value="" disabled selected>Trang chủ</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Tin tức</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Giới thiệu</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Tuyển sinh</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Đào tạo</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Nghiên cứu</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Các đơn vị</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Tra cứu</option>
+                </select>
+                <select >   
+                    <option value="" disabled selected>Liên kết</option>
+                </select>
+                <a href="">Tuyển dụng</a>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="bannerwebuit_tuyendung_2021.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="nganh-kiem-dinh-aun.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="aun-qa_ktmt_0.png" style="width:100%">
+            </div>
+            
+        </div>
+        <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        
+        <div class="news">
+            <div>
+                <h1>TIN NỔI BẬT</h1>
+                <div>
+                    <img src="intro_uit_play_360.jpg">
+                    <ul class="tinnoibat">
+                        <li>
+                            <a href="https://www.uit.edu.vn/san-pham-envi-card-cua-doi-null-xuat-sac-da-dat-giai-quan-quan-cuoc-thi-gameuit-hackathon-2022">Sản phẩm Envi Card của đội #null xuất sắc đã đạt giải quán quân...</a>
+                            <span class="date">(27-11-2022)</span>
+                            <img src="new.gif">
+                    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h1>TIN UIT</h1>
+                <img src="kms.jpg">
+            </div>
+            <div>
+                <h1>TUYỂN SINH (ĐH VÀ SĐH)</h1>
+                <img src="default-sdh.png" id="default">
+            </div>
+        </div>
+         
+
+        <footer class="footer" contentEditable>
+            <b>Thông tin footer</b>
+        </footer>
+        
+
+    </body>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+</html>

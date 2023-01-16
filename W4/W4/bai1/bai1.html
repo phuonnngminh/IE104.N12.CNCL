@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+        <h2>GIẢI PHƯƠNG TRÌNH BẬC I</h2>
+        <input id="a" type="text" placeholder="Hệ số a"> <br>
+        <input id="b" type="text" placeholder="Hệ số b"> <br>
+        <button id="btn" onclick="math()">Giải Phương Trình</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function math(){
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        if(a==0){
+            if(b==0){
+                document.getElementById("result").innerHTML = "Nghiệm x = Vô số nghiệm";
+            }
+            if(b!=0){
+                document.getElementById("result").innerHTML = "Nghiệm x = Vô nghiệm" ;
+            }
+        }
+        else document.getElementById("result").innerHTML = "Nghiệm x = " + (-b/a);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            h1
+            {
+                text-align: center;
+                font-family: sans-serif;
+            }
+
+            table, th 
+            {
+                border: 2px solid #264594;
+            }
+
+            table 
+            {   
+                margin-left: auto; 
+                margin-right: auto;
+                width: 20cm;
+                border-collapse: collapse;
+                background-color: #cdfffe;
+                color: blue;
+            }
+
+            th
+            {
+                height: 100%;
+                padding: 0.3cm;
+            }
+
+            
+
+
+</style>
+        </style>
+    </head>
+    <body>
+        <h1><font color="blue">Phiếu đăng ký tham gia chương trình khuyến mãi</font></h1>
+        
+
+            <table>
+                <tr>
+                    <th style="text-align: left;">
+                        Họ tên
+                    </th>
+                    <th style="text-align: left;">
+                        <input type="text" style="width: 7cm">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;">
+                        Địa chỉ
+                    </th>
+                    <th style="text-align: left;">
+                        <input type="text" style="width: 10cm; height: 4cm;" >
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;">
+                        Điện thoại
+                    </th>
+                    <th style="text-align: left;">
+                        <input type="tel">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;">
+                        Giới tính
+                    </th>
+                    <th style="text-align: left;">
+                        <input type="radio">
+                        <label for="sex">Nam</label>
+                        <input type="radio">
+                        <label for="sex">Nữ</label>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;">
+                        Nghề nghiệp
+                    </th>
+                    <th style="text-align: left;">
+                        <select name="job" id="job">
+                            <option>Giáo viên</option>
+                            <option>Học sinh</option>
+                            <option>Sinh viên</option>
+                            <option>Khác</option>
+                        </select>
+
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;">
+                        Chọn sản phẩm tham gia
+                    </th>
+                    <th style="text-align: left;">
+                        <div style="width: 5cm; overflow: auto; height: 2cm; background-color: white; color: black;">
+                            <div style="background-color :rgb(149, 149, 149)">Kem đánh răng</div>
+                            <div>Bột giặt</div>
+                            <div>Dầu gội đầu</div>
+                            <div>Sữa tắm</div>
+                            <div>Bàn chải</div>
+                            <div>Nước hoa</div>
+                            <div>Quạt</div>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: left;"> 
+                        Số người dự đoán tham gia
+                    </th>
+                    <th style="text-align: left;">
+                        <input type="number">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: center;" colspan="2"><button>Đồng ý</button></th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: center;" colspan="2"><font color="red"><b>Bạn đã đăng ký thành công!!!</b></font></th>
+                </tr>
+            </table>
+            
+    </body>
+</html>

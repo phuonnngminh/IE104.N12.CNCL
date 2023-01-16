@@ -1,0 +1,54 @@
+body
+{
+    overflow: hidden;
+    background-image: url(nen-hoa-co.jpg), 
+                    url(mucluc.jpg);
+    background-repeat: repeat-x, no-repeat;
+    background-attachment: fixed;
+    background-position: top, left;
+}
+
+h2
+{
+    color: #fe27b1; 
+    background-color: #feccff ; 
+    text-align: center;
+    font-size: 50px; 
+    padding : 10px
+}
+
+.paragraph
+{
+    margin-left: 260px;
+    margin-top: 90px;
+}
+
+.all_paragraph
+{
+    background-color: #ffffcd;
+}
+
+.paragraph1 
+{
+    color:blue; 
+    text-align: center; 
+}
+
+hr
+{
+    margin-left: 450px ; 
+    margin-right : 450px ; 
+    background-color: gray;
+}
+
+.paragraph2
+{
+    color:purple; 
+    text-align: center; 
+}
+
+.paragraph3
+{
+    color: green; 
+    text-align: center; 
+}

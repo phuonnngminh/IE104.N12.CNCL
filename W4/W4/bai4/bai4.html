@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <div id="content-title">
+            <h3>Tinh Chi So BMI</h3>
+        </div>
+        <div id="content-body">
+            <ul>
+                <li>
+                    <label for="can-nang">Nhập cân nặng?</label>
+                    <input id="can-nang" type="text">
+                </li>
+                <li>
+                    <label for="chieu-cao">Nhập chiều cao?</label>
+                    <input id="chieu-cao" type="text" style="color: red;">
+                </li>
+                <li>
+                    <label for="age">Chọn loại tuổi?</label>
+                    <select name="age" id="age">
+                        <option value="trung-nien">Trung niên</option>
+                        <option value="gia">Già, lớn tuổi</option>
+                    </select>
+                </li>
+                <li align="center">
+                    <button onclick="BMIExec()">Tính BMI</button>
+                </li>
+                <li id="result">
+                    <div>
+                        <label for="ket-qua">Kết Quả</label>
+                        <p id="bmi-index"></p>
+                        <p id="bmi-conclusion"></p>
+                        <p id="advice"></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="bai4.js"></script>
+</html>

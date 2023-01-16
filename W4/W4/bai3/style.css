@@ -1,0 +1,67 @@
+body{
+ color: #ccc;
+}
+li{
+    padding: 10px 0;
+}
+i{
+    padding-right: 4px;
+    color: #ccc;
+}
+input{
+    border: 1px solid #ccc;
+}
+textarea{ 
+    border: 1px solid #ccc;
+
+}
+textarea::placeholder{
+    color: #ccc;
+}
+input::placeholder{
+    color: #ccc;
+}
+.input{
+    border: 0.5px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.w1{
+    padding-right: 28em;
+}
+#container{
+    width: 960px;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+
+.title{
+    color: #000;
+    font-size: 1em;
+    padding: 0;
+    margin: 10px 0;
+}
+.title:hover{
+    color: red
+}
+.color{
+    color: purple;
+}
+
+button{
+    background-color: rgb(61, 125, 110);
+    height: 30px;
+    border: none;
+    font-size: 12px;
+    padding: 5px auto;
+    color: white;
+    text-align: center;
+}
+.i-btn{
+    color: #fff;
+}

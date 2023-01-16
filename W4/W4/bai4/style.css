@@ -1,0 +1,65 @@
+html{
+    background-image: linear-gradient(to right, rgb(157, 248, 22), rgb(97, 97, 250));
+}
+#content{
+    margin: 0 auto;
+    width:  300px;
+    height: 500px;
+    background: linear-gradient(to bottom, blue 10%, white 10%);  
+    border-radius: 10px;
+}
+
+#content-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 10px auto;
+}
+#content-body{
+    margin: 0 4px;
+}
+input{
+    width: 280px;
+}
+select{
+    width: 290px;
+}
+button{
+    background-color: rgb(72, 209, 255);
+    color: white;
+    width: 40%;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#bmi-index{
+    font-size: 30px;
+    color: blue;
+}
+#bmi-conclusion{
+    font-size: 20px;
+    color: red;
+}
+#advice{
+    font-size: 20px;
+    color:red;
+}
+div > p{
+    margin: 10px;
+    padding: 0%;
+}

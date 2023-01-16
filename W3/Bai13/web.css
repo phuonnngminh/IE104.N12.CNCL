@@ -1,0 +1,64 @@
+body
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    color: blue;
+}
+
+table
+{
+    height: 16cm;
+    width: 20cm;
+    margin-left: auto; 
+    margin-right: auto;
+    border-collapse: collapse;
+    color: #5151bf;
+    background-color: #ffffcd;
+}
+
+table, tr, th
+{
+    border: 2px solid #7c7dbc;
+}
+
+th
+{
+    padding: 0.3cm;
+    
+}
+
+.table_center legend
+{
+    text-align: left;
+}
+
+.table_center fieldset
+{
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.table_right
+{
+    text-align: right;
+}
+
+.table_left
+{
+    text-align: left;
+}
+
+.table_center
+{
+    text-align: center;
+    
+}
+
+#sucessfull
+{
+    color: #cc3d30;
+}

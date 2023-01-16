@@ -1,0 +1,80 @@
+body
+{
+    background-color: #2e6190;
+    margin: 0;
+}
+
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#banner
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1cm;
+}
+
+#row1
+ {
+    max-height: fit-content;
+    column-count: 2;
+    margin-left: 10px;
+    margin-right: auto;
+ }
+
+p
+{
+    text-align: center;
+    color:#497a9d;
+}
+
+#footer
+{
+    text-align: center;
+}
+
+#row2
+ {
+    max-height: fit-content;
+    column-count: 3;
+    display: flex;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    padding-top: 1cm;
+    padding-bottom: 0.3cm;
+
+ }
+
+ #img1
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#img2
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    text-align: center ;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.3cm;
+}
+
+#noidung
+{
+    background-color: white;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    margin-top: 0;
+}

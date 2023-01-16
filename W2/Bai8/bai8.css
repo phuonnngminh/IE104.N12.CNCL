@@ -1,0 +1,107 @@
+body
+{
+    background-image: url(co-vietnam.png);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-position-y: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    color: red;
+}
+
+#mucluc
+{
+    list-style-type: disc;
+}
+
+#hanoi
+{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 0.3cm;
+}
+
+#bandoVN
+{
+    width: 250px;
+    padding-right:40px;
+    padding-bottom: 20px;
+}
+
+#diacau
+{
+    width: 300px;
+    height: 300px;
+}
+
+#hoguom
+{
+    width: 300px;
+    height: 300px;
+    padding-right: 0.3cm;
+    padding-bottom: 0.1cm;
+}
+
+#vedautrang
+{
+    text-align: right;
+}
+
+#hue
+{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 0.3cm;
+}
+
+#cautrangtien
+{
+    width: 20cm ;
+}
+
+#caption
+{
+    padding : 0.3cm;
+}
+
+#dienthai
+{
+    width: 12cm;
+    padding-right: 0.3cm;
+    padding-bottom: 0.3cm;
+}
+
+#truonglang
+{
+    width: 11cm;
+    padding-left: 0.3cm;
+    padding-bottom: 0.3cm;
+}
+
+#hcm
+{
+    background-color: rgb(246, 13, 195);
+    color: white;
+    font-size: 20px;
+    padding: 0.3cm;
+}
+
+#row
+{
+    max-height: fit-content;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px dashed black;
+}
+
+#chobenthanh
+{
+    width: 12.5cm;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="webcss.css">
+    </head>
+
+    <body>
+
+        <h1 class="neonText">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+
+        <table>
+            <tr>
+                <th class="table_right">
+                    Họ tên
+                </th>
+                <th class="table_left">
+                    <input type="text" style="width: 7cm">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right">
+                    Địa chỉ
+                </th>
+                <th class="table_left">
+                    <input type="text" style="width: 10cm; height: 4cm;" >
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right" >
+                    Điện thoại
+                </th>
+                <th class="table_left">
+                    <input type="tel">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right">
+                    Giới tính
+                </th>
+                <th class="table_left">
+                    <input type="radio">
+                    <label for="sex">Nam</label>
+                    <input type="radio">
+                    <label for="sex">Nữ</label>
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right">
+                    Nghề nghiệp
+                </th>
+                <th class="table_left">
+                    <select name="job" id="job">
+                        <option>Giáo viên</option>
+                        <option>Học sinh</option>
+                        <option>Sinh viên</option>
+                        <option>Khác</option>
+                    </select>
+
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right">
+                    Chọn sản phẩm tham gia
+                </th>
+                <th class="table_left">
+                    <div class="table_left__category">
+                        <div>Kem đánh răng</div>
+                        <div class="table_left__category-colorrow">Bột giặt</div>
+                        <div>Dầu gội đầu</div>
+                        <div class="table_left__category-colorrow">Sữa tắm</div>
+                        <div>Bàn chải</div>
+                        <div class="table_left__category-colorrow">Nước hoa</div>
+                        <div>Quạt</div>
+                    </div>
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_right"> 
+                    Số người dự đoán tham gia
+                </th>
+                <th class="table_left">
+                    <input type="number">
+                </th>
+            </tr>
+
+            <tr>
+                <th class="table_center" colspan="2"><button ><b>Đồng ý</b></button></th>
+            </tr>
+
+            <tr>
+                <th class="table_center" id="sucessfull" colspan="2"><b><i>Bạn đã đăng ký thành công!!!</i></b></th>
+            </tr>
+        </table>
+    </body>
+</html>

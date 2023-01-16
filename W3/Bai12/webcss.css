@@ -1,0 +1,106 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.neonText 
+{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #5252fe , 0 0 7px #3c3cfc;
+}
+
+table
+{
+    height: 16cm;
+    margin-left: auto; 
+    margin-right: auto;
+    background: url(khuyen-mai.png) no-repeat;
+    background-position:0% 104%;
+    background-color: #cdfffe;
+    color: #016bec;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    border-spacing: 10px;
+    box-shadow: 10px 10px 5px #2f3edf;
+    
+}
+
+th
+{
+    font-weight: bold;
+}
+.table_left__category
+{
+    width: 5cm;
+    border: 1px dashed #5252fe;
+    border-radius: 10px;
+    background-color: #a3cdff;
+    opacity: 90%;
+    overflow: auto;
+    height: 2cm;
+}
+
+.table_left__category-colorrow
+{
+    background-color: #c7c8ca;
+}
+
+table input
+{
+    border: 1px dashed #5252fe;
+    border-radius: 10px;
+    background-color: #a3cdff;
+    opacity: 80%;
+}
+
+table select
+{
+    border: 1px dashed #5252fe;
+    border-radius: 10px;
+    background-color: #a3cdff;
+    opacity: 80%;
+    width: 2.5cm;
+}
+
+.table_right
+{
+    text-align: right;
+}
+
+.table_left
+{
+    text-align: left;
+}
+
+.table_center
+{
+    text-align: center;
+    
+}
+
+#sucessfull
+{
+    color: #eb13ef;
+}
+
+         
+.table_center button {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    text-align: center;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: 0.8cm ;
+  }
+
+  .table_center button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+  }
+ 

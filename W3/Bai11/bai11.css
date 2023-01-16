@@ -1,0 +1,79 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    padding-top: 1cm;
+    text-align: center;
+    position: relative;
+    color: #af0a12;
+}
+
+font 
+{
+    color: #af0a12
+}
+
+#form_dangnhap
+{
+    
+    position: relative;
+    margin-top: 4cm;
+    margin-left: 10cm;
+    width: 20cm;
+    height: 10cm;
+    border: 3px dashed #af0a12;
+    border-radius: 20px;
+}
+
+form
+{
+    position: relative;
+    margin-top: 2cm;
+    font-size: 20px;
+}
+
+#taikhoan
+{
+    padding-bottom: 0.3cm;
+    padding-left: 5cm;
+
+}
+
+.dangnhap input
+{
+    position: absolute;
+    background-color: #fecccb;
+    border: 1px dashed #af0a12;
+    border-radius: 20px;
+    margin-left: 0.3cm;
+    opacity: 0.8;
+}
+
+#matkhau
+{
+    padding-bottom: 0.3cm;
+    padding-left: 6.6cm;
+}
+
+
+button
+{
+    font-size: 20px;
+    color: rgb(246, 227, 227);
+    margin-bottom: 0.3cm;
+    margin-left: 7.5cm;
+    border: 1px solid #af0a12;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 0 2px #999;
+}
+
+#login
+{
+    position: absolute;
+    right: 0;
+    top: 0.3cm;
+}
