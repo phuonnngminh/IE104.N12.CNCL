@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-Giáo viên hướng dẫn: <b>Thầy Phạm Thế Sơn<b>
+<b>Giáo viên hướng dẫn: Thầy Phạm Thế Sơn<b>
 
 Nhóm của chúng tôi bao gồm ba thành viên:
 
@@ -14,7 +14,7 @@ Nhóm của chúng tôi bao gồm ba thành viên:
 
 <br>
 
-Dưới đây là tổng hợp bài tập hàng tuần và đồ án môn học IE104.N12.CNCL (Internet và Công nghệ Web), được hướng dẫn bởi <b>Thầy Phạm Thế Sơn</b>.
+Dưới đây là tổng hợp bài tập hàng tuần và đồ án môn học IE104.N12.CNCL (Internet và Công nghệ Web).
 
 \*\* Bài tập trải dài 4 tuần với hàm lượng kiến thức tăng dần. Môn học này tập trung xoay quanh các vấn đề cơ bản của lập trình web như HTML, CSS, JavaScript.
 
