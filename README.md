@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-Giáo viên hướng dẫn: Thầy Phạm Thế Sơn
+Giáo viên hướng dẫn: <b>Thầy Phạm Thế Sơn<b>
 
 Nhóm của chúng tôi bao gồm ba thành viên:
 
