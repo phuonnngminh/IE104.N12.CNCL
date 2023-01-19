@@ -24,26 +24,7 @@ Dưới đây là tổng hợp bài tập hàng tuần và đồ án môn học 
     <li> Vấn đề tìm kiếm sản phẩm.
     <li> Vấn đề xem chi tiết sản phẩm.
     <li> Vấn đề thanh toán.
-</ol>
-
-## Mục lục
-
-- [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt)
-  - [Cài đặt cho hệ điều hành Windows](#cài-đặt-cho-hệ-điều-hành-windows)
-  - [Cài đặt cho các hệ điều hành Linux](#cài-đặt-cho-các-hệ-điều-hành-linux)
-- [Hướng dẫn điều khiển](#hướng-dẫn-điều-khiển)
-- [Luật chơi](#luật-chơi)
-- [Mô phỏng trạng thái game](#mô-phỏng-trạng-thái-game)
-
----
-
-<!-- ## Yêu cầu kỹ thuật
-
-Hiện tại chương trình của chúng tôi chỉ mới hỗ trợ cho nền tảng Microsoft Windows. Trước khi đến với bước cài đặt, vui lòng kiểm tra hệ thống của bạn đã có sẵn những tiện ích sau:
-
-- Windows 32-bit hoặc 64-bit.
-- Trình biên dịch GNU dành cho Windows: MinGW, MinGW-w64, hoặc TDM-GCC.
-- GCC >= 5.1.0. -->
+    </ol>
 
 ## Hướng dẫn cài đặt
 
